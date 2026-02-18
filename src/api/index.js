@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://wangyiyunnode.vercel.app/"
+const BASE_URL = "https://wangyiyunnode.vercel.app"
 const instance = axios.create({
     baseURL: BASE_URL,
     timeout: 10000,
